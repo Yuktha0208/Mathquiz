@@ -1,0 +1,23 @@
+div{
+    background-color:antiquewhite;
+    color:rgb(135, 51, 245);
+    height:120px;
+    width:800px;;
+    border-radius:5%;
+    align-content:center;
+
+}
+
+body{
+    background-color:dodgerblue;
+}
+
+h1{
+    color:white;
+}
+
+button{
+    width:500px;
+    height:50px;
+    border-radius:10px;
+}
