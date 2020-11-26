@@ -1,12 +1,7 @@
-function updateScore(){
-    score=score+1;
-    document.getElementById("score").innerHTML="Score: "+score;
-}
-
-function  saveScore(){
-    localStorage.setItem("Score",score);
-}
-
-function nextPage(){
-    window.location="activity_2.html";
+function adduser(){
+    var player1=document.getElementById("player1name").value;
+    var player2=document.getElementById("player2name").value;
+    localStorage.setItem("player1",player1);
+    localStorage.setItem("player2",player2);
+    window.location="game_page.html";
 }
